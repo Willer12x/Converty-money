@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Convert-Money</title>
+</head>
+
+<body>
+    <div class="Container">
+
+        <header>
+            <h1>Convert Money</h1>
+        </header>
+
+        <main>
+
+            <label>
+                <b>Converter de</b>
+                <select>
+                    <option> R$ Real Brasileiro</option>
+                </select>
+            </label>
+
+            <label>
+                <b>Converter para</b>
+                <select id="select-moeda">
+                    <option>US$ Dólar americano</option>
+                    <option>€ Euro </option>
+                    <option>BTC Bitcoin</option>
+                </select>
+            </label>
+
+            <label>
+                <b>Valor</b>
+                <input id="input-01" placeholder="R$ 10.000,00" />
+
+            </label>
+
+            <button type="button" id="button-1">Converter</button>
+
+            <section>
+                <div class="container-01">
+                    <img src="../Assets/brasil 2.png" alt="Bandeira do brasil">
+                    <p Class="moeda">Real</p>
+                    <p class="valor" id="real-valor">R$ 10.000,00</p>
+                </div>
+
+                <img class="flecha" src="../Assets/Group.png" alt="Flecha">
+
+                <div class="container-01">
+                    <img src="../Assets/estados-unidos (1) 1.png" id="bandeira-euro" alt="estados unidos">
+                    <p class="moeda" id="moeda-dolar">Dólar americano</p>
+                    <p class="valor" id="dolar-valor">US$ 2.000,00</p>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
